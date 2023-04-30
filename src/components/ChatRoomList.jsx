@@ -15,6 +15,7 @@ export default function ChatRoomList() {
     useEffect(() => {
         onValue(ref(db, `rooms`), (snapshot) => {
             const rooms = snapshot.val()
+            console.log('here2', rooms)
             setRooms(rooms)
         })
     }, [router.isReady, router.query])
@@ -29,7 +30,7 @@ export default function ChatRoomList() {
             </div>
             <div className={"mt-6 flex flex-col my-2"}>
                 {rooms !== null && Object.entries(rooms)
-                    ?.filter(([roomId, room]) => room.users[user?.uid] === true)
+                    ?.filter(([roomId, room]) => room.users?.[user?.uid] === true)
                     .map(([roomId, room]) => (
                     <Link key={roomId}
                           href={`/room/${roomId}`}
@@ -39,10 +40,6 @@ export default function ChatRoomList() {
                     </Link>
                 ))}
             </div>
-            {/*<div>*/}
-            {/*    {JSON.stringify(rooms)}*/}
-            {/*    {router.query?.room_id}*/}
-            {/*</div>*/}
         </div>
     )
 }

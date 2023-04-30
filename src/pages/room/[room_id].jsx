@@ -19,8 +19,7 @@ export default function Room_id() {
         const { room_id } = router.query;
         if (!room_id) return;
 
-        const userRoomRef = ref(db, `rooms/${room_id}/${user?.uid}`);
-        //
+        // const userRoomRef = ref(db, `rooms/${room_id}/users/${user?.uid}`);
         // onValue(userRoomRef, (snapshot) => {
         //     if (!snapshot.exists() || snapshot.val() !== true) {
         //         alert("You are not a member of this room" + snapshot.val());

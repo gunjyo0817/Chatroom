@@ -19,15 +19,19 @@
 | Security                                         | 2%        | Y         |
 
 | **Other useful functions**                         | **Score** | **Check** |
-| :----------------------------------------------- | :-------: | :-------: |
-| Name of functions                                  | 1~5%     | N         |
+| :----------------------------------------------- | :-------: |:---------:|
+| Name of functions                                  | 1~5%     |     Y     |
 
 
 ---
 
 ### How to use
-
-    Describe how to use your web and maybe insert images or gifs to help you explain.
+    There are several page.
+    You will initially enter the login page.
+    You can register a new account or login with your account.
+![img.png](img.png)
+    After login, you will enter the main page with public room.
+    You can click the button to enter the chatroom in the right bar.
 
 ### Function description
 
@@ -35,7 +39,7 @@
 
 ### Firebase page link
 
-    Your web page URL
+    https://chat.nthu.dev/
 
 ### Others (Optional)
 

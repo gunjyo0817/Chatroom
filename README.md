@@ -18,9 +18,10 @@
 | CSS Animation       |    2%     |     Y     |
 | Security            |    2%     |     Y     |
 
-| **Other useful functions** | **Score** | **Check** |
-|:---------------------------|:---------:|:---------:|
-| Unsend Message             |           |     Y     |
+| **Other useful functions**  | **Score** | **Check** |
+|:----------------------------|:---------:|:---------:|
+| Unsend Message              |    3%     |     Y     |
+| UserProfile、Profile Picture |    2%     |     Y     |
 
 ---
 

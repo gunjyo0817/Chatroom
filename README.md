@@ -1,38 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Software Studio 2023 Spring Midterm Project
 
-## Getting Started
+### Scoring
 
-First, run the development server:
+| **Basic components**                             | **Score** | **Check** |
+| :----------------------------------------------- | :-------: | :-------: |
+| Membership Mechanism                             | 15%       | Y         |
+| Firebase page                                    | 5%        | Y         |
+| Database read/write                              | 15%       | Y         |
+| RWD                                              | 15%       | Y         |
+| Chatroom                                         | 20%       | Y         |
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+| **Advanced tools**                               | **Score** | **Check** |
+| :----------------------------------------------- | :-------: | :-------: |
+| Using React                                      | 10%       | Y         |
+| Third-Party Sign In                              | 1%        | Y         |
+| Notification                                     | 5%        | Y         |
+| CSS Animation                                    | 2%        | Y         |
+| Security                                         | 2%        | Y         |
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| **Other useful functions**                         | **Score** | **Check** |
+| :----------------------------------------------- | :-------: | :-------: |
+| Name of functions                                  | 1~5%     | N         |
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### How to use
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    Describe how to use your web and maybe insert images or gifs to help you explain.
 
-## Learn More
+### Function description
 
-To learn more about Next.js, take a look at the following resources:
+    Describe your bonus function and how to use it.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Firebase page link
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    Your web page URL
 
-## Deploy on Vercel
+### Others (Optional)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    Anything you want to say to TAs.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<style>
+table th{
+    width: 100%;
+}
+</style>

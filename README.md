@@ -1,63 +1,24 @@
-# Software Studio 2023 Spring Midterm Project
-
-### Scoring
-
-| **Basic components** | **Score** | **Check** |
-|:---------------------|:---------:|:---------:|
-| Membership Mechanism |    15%    |     Y     |
-| Firebase page        |    5%     |     Y     |
-| Database read/write  |    15%    |     Y     |
-| RWD                  |    15%    |     Y     |
-| Chatroom             |    20%    |     Y     |
-
-| **Advanced tools**  | **Score** | **Check** |
-|:--------------------|:---------:|:---------:|
-| Using React         |    10%    |     Y     |
-| Third-Party Sign In |    1%     |     Y     |
-| Notification        |    5%     |     Y     |
-| CSS Animation       |    2%     |     Y     |
-| Security            |    2%     |     Y     |
-
-| **Other useful functions**  | **Score** | **Check** |
-|:----------------------------|:---------:|:---------:|
-| Unsend Message              |    3%     |     Y     |
-| UserProfile、Profile Picture |    2%     |     Y     |
-
----
-
-### How to use
+# Chatroom build by Next.js
+## How to use
 
 You will initially enter the login page.
 You can register a new account or login with your account.
 
 ![img.png](img.png)
 ![img_5.png](img_5.png)
-After login, you will enter the main page with public room.
-點擊左上角的icon會回到首頁(public room)
-你可以點擊右邊的add chatroom來增加一個chatroom，只有你自己
-點進去chatroom後，你可以在下方輸入訊息，點擊右邊的send來送出訊息
-按chatroom右上的icon可以加入人到chatroom
+After logging in, you will be directed to the main page with the public room. Clicking the icon in the top left corner will return you to the homepage (public room). You can add a new chatroom by clicking on 'add chatroom' on the right. This chatroom will be private to you. Once inside a chatroom, you can input messages at the bottom and click 'send' on the right to submit them. Clicking the icon in the top right corner of the chatroom allows you to add people to the chatroom.
 ![img_2.png](img_2.png)
 ![img_3.png](img_3.png)
 ![img_4.png](img_4.png)
-收回(垃圾桶icon)按一次會變紅色，再按一次刪除
+Clicking the 'revoke' icon (trash bin icon) once will turn it red, and clicking it again will delete the content.
 ![img_6.png](img_6.png)
 ![img_7.png](img_7.png)
-### Function description
 
-    1. 個人檔案 : 顯示個人資訊，包含名字、照片、個人簡介，可以進行修改。
-    2. Google通知：點擊右上角的鈴鐺，會有通知詢問
+## Function description
 
-### Firebase page link
+    1. Personal Profile: Displays personal information, including name, photo, and a brief bio. You can make modifications as needed.
+    2. Google Notifications: Clicking on the bell icon in the top right corner will prompt notifications for your attention.
+
+## Firebase page link
 
     https://chat.nthu.dev/
-
-### Others (Optional)
-
-    Anything you want to say to TAs.
-
-<style>
-table th{
-    width: 100%;
-}
-</style>
